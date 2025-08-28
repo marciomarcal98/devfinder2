@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --color-blue: #0079FF;
+    --color-grey: #697C9A;
+    --color-greyblue: #4B6A9B;
+    --color-darkgrey: #4B6A9B;
+    --color-almost-white: #F6F8FF;
+    --color-offwhite: #FEFEFE;
+
+    /* dark mode */
+    --color-white: #FFFFFF;
+    --color-almost-black: #141D2F;
+    --color-dark-blue: #1E2A47;
+
+    --font-space-mono: "Space Mono", monospace;
+}
